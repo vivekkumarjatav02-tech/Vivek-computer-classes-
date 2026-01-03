@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>Vivek Computer Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Vivek Computer Classes</h1>
+    <p>सही शिक्षा, सही सफलता</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="banner">
+    <h2>Best Computer Institute in Amari Bazar</h2>
+    <p>Basic से Advance तक Computer Education</p>
+    <button onclick="callNow()">Call Now</button>
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="course">Basic Computer</div>
+    <div class="course">Tally + GST</div>
+    <div class="course">DCA</div>
+    <div class="course">ADCA</div>
+    <div class="course">Digital Marketing</div>
+    <div class="course">Graphic Designing</div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Vivek Computer Classes में छात्रों को Practical Training के साथ
+        Certificate Course कराया जाता है।  
+        हमारा उद्देश्य छात्रों को Job के लिए तैयार करना है।
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Address: Amari Bazar, Basti</p>
+    <p>📞 Mobile: 9555782898 | 7379589714</p>
+    <button onclick="whatsapp()">WhatsApp</button>
+</section>
+
+<footer>
+    © 2026 Vivek Computer Classes | All Rights Reserved
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
